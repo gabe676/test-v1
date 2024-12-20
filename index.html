@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/jpg" href="images/favcon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew & Gabriel Design Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Andrew & Gabriel Design Studio</h1>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" aria-labelledby="hero-title" class="hero">
+        <h2 id="hero-title">Welcome to Andrew & Gabriel Design Studio</h2>
+        <p>Transforming ideas into visually stunning experiences.</p>
+        <a href="#about" class="btn">Explore Our Work</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" aria-labelledby="services-title">
+        <h2 id="services-title">Our Services</h2>
+        <article>
+            <header>
+                <h3>Graphic Design</h3>
+            </header>
+            <p>Creating captivating visuals for brands and products.</p>
+        </article>
+        <article>
+            <header>
+                <h3>User Experience Design</h3>
+            </header>
+            <p> doing crazy shit online.</p>
+        </article>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About Andrew & Gabriel</h2>
+        <p>We are a duo (not gay) of passionate designers bringing unique ideas to life.</p>
+        <details>
+            <summary>Our Story</summary>
+            <p>Gabriel specializes in graphic design, while Andrew is an expert in user-centered design. Together, we’ve collaborated with over zero lol clients globally.</p>
+        </details>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" aria-labelledby="team-title">
+        <h2 id="team-title">Meet Our Team</h2>
+        <ul>
+            <li>
+                <figure>
+                    <img src="images/zi andrew.png" height="135">
+                    <figcaption>Andrew - the mastermind</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/the silly one.png" height="150">
+                    <figcaption>gaBe - silly one Specialist</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Get in Touch with Us</h2>
+        <form id="contactForm">
+            <fieldset>
+                <legend>Contact Andrew & Gabriel</legend>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 1997 Andrew & Gabriel  Design Studio. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" aria-hidden="true">
+        <div class="modal-content">
+            <h2>Welcome to Andrew & Gabriel Studio!</h2>
+            <p>we arent gay.</p>
+            <button id="closeModal">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
